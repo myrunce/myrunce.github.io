@@ -19,16 +19,16 @@
         .sub-important{
             font-family: 'Lobster', cursive;
         }
+        .navbar-fixed {
+            z-index: 999;
+        }
     </style>
     <body>
         <div class="navbar-fixed">
             <nav role="navigation" class="grey">
                 <div class="nav-wrapper container">
-                     <!-- <ul class="left">
-                    <img src="img/logo.png" alt="logo" id="logo">
-                    </ul>  -->
                     <a id="logo-container" class="brand-logo">
-                     <img src="img/logo.png" alt="logo" id="logo" height="50"> 
+                        <img src="img/logo.png" alt="logo" id="logo" height="50"> 
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="about"><span class="sub-important">About</span></a></li>
@@ -39,6 +39,17 @@
                     </ul>
 
                     <ul id="nav-mobile" class="side-nav">
+                        <li><div class="user-view">
+                            <div class="background">
+                                <img src="img/web-development.JPG">
+                            </div>
+                            <div class="center">
+                                <img class="responsive-img circle" src="img/myron.jpg">
+                            </div>
+                            <p><span class="white-text name">Myron Navarrete</span></p>
+                            <p><span class="white-text email">myronnavarrete@gmail.com</span></p>
+                        </div>
+                        </li>
                         <li><a class="about"><span class="sub-important">About</span></a></li>
                         <li><a class="portfolio"><span class="sub-important">Portfolio</span></a></li>
                         <li><a class="bootcamp"><span class="sub-important">Bootcamp Experience</span></a></li>
@@ -74,7 +85,7 @@
         
                     <div class="col m4 s12 center">
                         <br>
-                        <img src="img/myron.jpg" class="circle" alt="profile picture" id="profile_pic" width="250" height="300">
+                        <img src="img/myron.jpg" class="responsive-img circle" alt="profile picture" id="profile_pic" width="250" height="300">
                     </div>
 
                     <div class="col m8 s12">
@@ -278,7 +289,10 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script>
-            $('.button-collapse').sideNav();
+            $('.button-collapse').sideNav({
+                draggable: true,
+                closeOnClick: true
+            });
             $('.parallax').parallax();
 
             var NAVBAR_HEIGHT = 64;
