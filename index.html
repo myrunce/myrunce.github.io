@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Myron Navarrete</title>
-        <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
-        <script src="https://use.fontawesome.com/c7b3531695.js"></script>
-        <link rel="icon" type="image/png" href="http://i.imgur.com/Im7eRGB.png">
-    </head>
-    <style>
-        #intro-para{
-            height: 150px;
-        }
-        .important{
-            font-family: 'Abril Fatface', cursive;
-        }
-        .sub-important{
-            font-family: 'Lobster', cursive;
-        }
-        .navbar-fixed {
-            z-index: 999;
-        }
-    </style>
-    <body>
-        <div class="navbar-fixed">
-            <nav role="navigation" class="grey">
-                <div class="nav-wrapper container">
-                    <a id="logo-container" class="brand-logo">
+
+<head>
+    <title>Myron Navarrete</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c7b3531695.js"></script>
+    <link rel="icon" type="image/png" href="http://i.imgur.com/Im7eRGB.png">
+</head>
+<style>
+    #intro-para {
+        height: 150px;
+    }
+
+    .important {
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .sub-important {
+        font-family: 'Lobster', cursive;
+    }
+
+    .navbar-fixed {
+        z-index: 999;
+    }
+
+    #overflow {
+        overflow-y: scroll;
+    }
+</style>
+
+<body>
+    <div class="navbar-fixed">
+        <nav role="navigation" class="grey">
+            <div class="nav-wrapper container">
+                <a id="logo-container" class="brand-logo">
                         <img src="img/logo.png" alt="logo" id="logo" height="50"> 
                     </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a class="about"><span class="sub-important">About</span></a></li>
-                        <li><a class="portfolio"><span class="sub-important">Portfolio</span></a></li>
-                        <li><a class="bootcamp"><span class="sub-important">Bootcamp Experience</span></a></li>
-                        <li><a class="skills"><span class="sub-important">Skills</span></a></li>
-                        <li><a class="resume" href="MyronNavarreteResume.pdf"><span class="sub-important">Resume</span></a></li>
-                    </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="about"><span class="sub-important">About</span></a></li>
+                    <li><a class="portfolio"><span class="sub-important">Portfolio</span></a></li>
+                    <li><a class="skills"><span class="sub-important">Skills</span></a></li>
+                    <li><a class="resume" href="MyronNavarreteResume.pdf"><span class="sub-important">Resume</span></a></li>
+                </ul>
 
-                    <ul id="nav-mobile" class="side-nav">
-                        <li><div class="user-view">
+                <ul id="nav-mobile" class="side-nav">
+                    <li>
+                        <div class="user-view">
                             <div class="background">
                                 <img src="https://cedarwaters.com/wp-content/uploads/2016/06/web-developer-plano-tx-1-1200x500.jpg">
                             </div>
@@ -50,238 +59,196 @@
                             <p><span class="white-text name">Myron Navarrete</span></p>
                             <p><span class="white-text email">myronnavarrete@gmail.com</span></p>
                         </div>
-                        </li>
-                        <li><a class="about"><span class="sub-important">About</span></a></li>
-                        <li><a class="portfolio"><span class="sub-important">Portfolio</span></a></li>
-                        <li><a class="bootcamp"><span class="sub-important">Bootcamp Experience</span></a></li>
-                        <li><a class="skills"><span class="sub-important">Skills</span></a></li>
-                        <li><a class="resume" a href="MyronNavarreteResume.pdf"><span class="sub-important">Resume</span></a></li>
-                    </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
-                </div>
-            </nav>
-        </div>
-
-        <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/csi.jpg"></div>
-        </div>
-
-       
-        <div class="container">
-            <div class="center">
-                <h2 class="header"><b><span class="important">Myron Navarrete</span></b></h2>
-                <h4 class="header col s12"><span class="sub-important">Aspiring Web Developer</span></h4>
-                <br>
+                    </li>
+                    <li><a class="about"><span class="sub-important">About</span></a></li>
+                    <li><a class="portfolio"><span class="sub-important">Portfolio</span></a></li>
+                    <li><a class="skills"><span class="sub-important">Skills</span></a></li>
+                    <li><a class="resume" a href="MyronNavarreteResume.pdf"><span class="sub-important">Resume</span></a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
             </div>
+        </nav>
+    </div>
+
+    <div class="parallax-container" id="intro-para">
+        <div class="parallax"><img src="img/csi.jpg"></div>
+    </div>
+
+
+    <div class="container">
+        <div class="center">
+            <h2 class="header"><b><span class="important">Myron Navarrete</span></b></h2>
+            <h4 class="header col s12"><span class="sub-important">Aspiring Web Developer</span></h4>
+            <br>
         </div>
-         
-       <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/csi.jpg"></div>
-        </div>
+    </div>
 
-        <div class="container" id="about_section">
-            <div class="section">
+    <div class="parallax-container" id="intro-para">
+        <div class="parallax"><img src="img/csi.jpg"></div>
+    </div>
 
-                <div class="row">
-        
-                    <div class="col m4 s12 center">
-                        <br>
-                        <img src="img/myron.jpg" class="responsive-img circle" alt="profile picture" id="profile_pic" width="250" height="300">
-                    </div>
-
-                    <div class="col m8 s12">
-                        <div class="center">
-                            <h3><span class="sub-important">About Me</span></h3>
-                            <p>Hey I'm Myron! I'm a student of Coding Dojo Silicon Valley and I am following my dream of becoming a computer programmer. Before attending Coding Dojo, I was a cook at a dead end job. Once the restaurant closed, I decided it was time to make something of myself. I took out a loan and decided to devote everything i have to start a career as a computer programmer. Since then I have never looked back! If you are interested in looking into my exerpience at the bootcamp and the struggles I went through, please <a class="bootcamp" href="#" id="boot_about">check out my bootcamp experience!</a></p>
-                            <p>I strongly believe that I'm on an upward trend and that programming is my true calling in life. In just 14 weeks I turned my whole life around and I hope this webpage proves that. Although I do not have a college degree, I do have determination and I am willing to learn. All I need is the chance to prove myself and I will not let down.</p>
-                            <br>
-                        </div>  
-
-                        <div class="row center">
-                            <div class="col m3 s3 btn_links">
-                                <a class="btn-floating waves-light" href="MyronNavarreteResume.pdf" target="blank">
-                                <i class="large material-icons grey">attach_file</i>
-                                </a>
-                                <a href="MyronNavarreteResume.pdf" target="blank"><span class="sub-important"><span class="black-text"> Resume</span></span></a>
-                            </div>
-                            <div class="col m3 s3 btn_links">
-                                <a class="btn-floating waves-light" href="mailto:myronnavarrete@gmail.com">
-                                <i class="large material-icons grey">contact_mail</i>
-                                </a>
-                                <a href="mailto:myronnavarrete@gmail.com"><span class="sub-important"><span class="black-text"> Email</span></span></a>
-                            </div>
-                            <div class="col m3 s3 btn_links">
-                                <a class="btn-floating waves-light" href="http://www.linkedin.com/in/myronnavarrete" target="_blank">
-                                <i class="fa fa-linkedin grey" aria-hidden="true"></i>
-                                </a>
-                                <a href="http://www.linkedin.com/in/myronnavarrete" target="_blank"><span class="sub-important"><span class="black-text"> LinkedIn</span></span></a>
-                            </div>
-                            <div class="col m3 s3 btn_links">
-                                <a class="btn-floating waves-light" href="http://www.github.com/myrunce" target="_blank">
-                                <i class="fa fa-github grey" aria-hidden="true"></i>
-                                </a>
-                                <a href="http://www.github.com/myrunce" target="_blank"><span class="sub-important"><span class="black-text"> Github</span></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div> 
-        </div> 
-
-        <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/keyboard.jpg"></div>
-        </div>
-
-        <div class="container center" id="portfolio_section">
-            <div class="center">
-                <h3><span class="sub-important">Portfolio</span></h3>
-            </div>
+    <div class="container" id="about_section">
+        <div class="section">
 
             <div class="row">
-                <div class="col s12 m4">
-                    <div class="card hoverable">
-                        <div class="card-image center-align">
-                            <img src="https://preview.ibb.co/j4S7ia/UFI.png" class="responsive-img">
-                        </div>
-                        <span class="card-title center-align"><span class="important">Up For It</span></span>
-                        <div class="card-content">
-                            <p>Up for it is a web appliation made with Java, Spring MVC, HTML, CSS, and Materialize. It utilizes the Up For It API I created. 
-                                When users log in, the app generates a "feel-good" challenge for them to complete. If the user completes the challenge,
-                                the challenge will then go to their "completed challenges" list and can be viewed. Same goes for their "uncompleted challenges"
-                                as well. 
-                            </p>
-                            <br>
-                            <a href="https://github.com/myrunce/UpForItSpring">Check out the code!</a>
-                        </div>
-                        <div class="card-action center-align">
-                            <a href="http://18.220.212.232">Check it out!</a>
-                        </div>
-                    </div>
+
+                <div class="col m4 s12 center">
+                    <br>
+                    <img src="img/myron.jpg" class="responsive-img circle" alt="profile picture" id="profile_pic" width="250" height="300">
                 </div>
-                <div class="col s12 m4">
-                    <div class="card hoverable">
-                        <div class="card-image center-align">
-                            <img src="https://preview.ibb.co/g2eW9F/UFIAPI.png" class="responsive-img">
-                        </div>
-                        <span class="card-title center-align"><span class="important">Up For It API</span></span>
-                        <div class="card-content">
-                            <p>Up For It API is an API I created using Java, Spring MVC, HTML, CSS, and Bootstrap. It is a collection of feel good challenges 
-                                that returns JSON responses when called upon. The API allows anyone to add to the database and has an admin feature to review all 
-                            data that has been added to the API as well as directly adding to the API.
-                            </p>
-                            <br>
-                            <a href="https://github.com/myrunce/UpForItAPI">Check out the code!</a>
-                        </div>
-                        <div class="card-action">
-                            <a href="http://18.220.143.149/">Check it out!</a>
-                        </div>
+
+                <div class="col m8 s12">
+                    <div class="center">
+                        <h3><span class="sub-important">About Me</span></h3>
+                        <p>Hey I'm Myron! I'm a triple black-belt(highest honor) graduate of Coding Dojo Silicon Valley and I am following my dream of becoming
+                            a computer programmer. Before attending Coding Dojo, I was a cook at a dead end job. Once the
+                            restaurant closed, I decided it was time to make something of myself. I took out a loan and decided
+                            to devote everything i have to start a career as a computer programmer. Since then I have never
+                            looked back! While you're here please check out my projects!</p>
+                        <br>
                     </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="card hoverable">
-                        <div class="card-image center-align">
-                            <img src="https://i.imgur.com/FyFq6p2.png" class="responsive-img">
+
+                    <div class="row center">
+                        <div class="col m3 s3 btn_links">
+                            <a class="btn-floating waves-light" href="MyronNavarreteResume.pdf" target="blank">
+                                <i class="large material-icons grey">attach_file</i>
+                                </a>
+                            <a href="MyronNavarreteResume.pdf" target="blank"><span class="sub-important"><span class="black-text"> Resume</span></span></a>
                         </div>
-                        <span class="card-title center-align"><span class="important">Film Friends</span></span>
-                        <div class="card-content">
-                            <p>Film Friends is an app made with Python, Django, Sqlite and Materialize. It utilizes Gracenote's movies API. The objective of this app is to allow people to watch movies with other people. When a user logs in, they can 
-                                search for movies by zip and date. Once they have searched, they can claim to "go to a movie" and they'll be added to a group of people also going to that movie. Please note when viewing this project, the API may not call 
-                                all the movie posters.
-                            </p>
-                            <br>
-                            <a href="https://github.com/myrunce/filmfriends">Check out the code!</a>
+                        <div class="col m3 s3 btn_links">
+                            <a class="btn-floating waves-light" href="mailto:myronnavarrete@gmail.com">
+                                <i class="large material-icons grey">contact_mail</i>
+                                </a>
+                            <a href="mailto:myronnavarrete@gmail.com"><span class="sub-important"><span class="black-text"> Email</span></span></a>
                         </div>
-                        <div class="card-action center-align">
-                            <a href="http://18.221.23.203/">Check it out!</a>
+                        <div class="col m3 s3 btn_links">
+                            <a class="btn-floating waves-light" href="http://www.linkedin.com/in/myronnavarrete" target="_blank">
+                                <i class="fa fa-linkedin grey" aria-hidden="true"></i>
+                                </a>
+                            <a href="http://www.linkedin.com/in/myronnavarrete" target="_blank"><span class="sub-important"><span class="black-text"> LinkedIn</span></span></a>
+                        </div>
+                        <div class="col m3 s3 btn_links">
+                            <a class="btn-floating waves-light" href="http://www.github.com/myrunce" target="_blank">
+                                <i class="fa fa-github grey" aria-hidden="true"></i>
+                                </a>
+                            <a href="http://www.github.com/myrunce" target="_blank"><span class="sub-important"><span class="black-text"> Github</span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/coding_dojo.jpg"></div>
+    <div class="parallax-container" id="intro-para">
+        <div class="parallax"><img src="img/keyboard.jpg"></div>
+    </div>
+
+    <div class="container center" id="portfolio_section">
+        <div class="center">
+            <h3><span class="sub-important">Portfolio</span></h3>
         </div>
 
-        <div class="container" id="bootcamp_section">
-            <div class="center">
-                <span class="sub-important"><h3>Bootcamp Experience</h3></span>
-                <p class="flow-text">Enrolling in Coding Dojo and progressing through the program was probably the most difficult yet fullfilling thing I have done to date. I came into this program knowing little to no knowledge of coding. All I had for experience was some knowledge of Javascript because of Codeacademy, and a little HTML knowledge because of the old Myspace days where everyone was customizing their profiles. How Coding Dojo works is that they teach you three full stacks.The first first two weeks however you do the web fundamentals track, which is focused on HTML, CSS, and front-end javascript libraries(ie. JQuery). Once that is completed, you move on to your first stack, Python. Python is a mandatory stack because it is a simple language to learn and has a very easy framework to work with. Typically each stack is one month long with that last week being a project week where you can work on a project for your portfolio! After Python you can choose whatever language they have available for your next two stack. I personally chose Java and the MEAN stack. For more information about my experiences with each stack check below!</p>
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><h5><span class="sub-important">Web Fundamentals</span></h5></div>
-                        <div class="collapsible-body">Web fudamentals looking back now was by far the easiest track, but at the time I struggled with it a lot because of all new the concepts being thrown at me. During this time we also were taught how to use the terminal/gitbash, git, and github. I never knew how powerful the terminal was an how useful it is! What a great tool. Anyways, on my first day I was extremely nervous because of the fact that I had no college degree while all my cohort members that I talked to did plus work experience. The one advice I give to anyone that is thinking to go to a bootcamp with the same experience as me is make sure that programming is truly what you want to do! During my time at the bootcamp I've seen many people fall behind to the point of no return because they didn't have the determination to struggle through it. You have to have passion to complete this! It doesn't matter where your skill level is when you start, as long as you put in the work you will see the results, but you have to be willing to sacrafice! As the days went by, we started figuring out who were the strong coders in the group. Those people got asked many questions all the time and were always a step ahead of everyone else. I was not one of these people, I was a little above the middle of the pack when it came to coding strength. I didn't need to ask much questions, but I wasn't ahead of the curve either. Everyday we were taught a lot, we did a lot of HTML assignments from basic layouts, then to adding CSS to them, all the way to finally adding JQuery as well. In the end most of us passed our exam and we moved on to our Python track virtually unscathed.</p></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><h5><span class="sub-important">Python</span></h5></div>
-                        <div class="collapsible-body">
-                            <p>Python was by far my favorite stack because I had such an awesome instructor. Fair warning to those thinking about going here, the instructors here are not the greatest. Lectures typically consist of what is on the learning platform already. Python is a really fun language and I highly suggest anyone who is trying to learn to code to learn this language first! The syntax is nice and simple and is very easy to read. Getting back on subject, the Python stack introduced us on how to make webpages and introduced us to GET and POST requests. Learning this at first was tough for me. I fell from being a middle of the pack student to the lower ends. I started spending late nights at the bootcamp just so I can catch up. Luckily as I stated before, I had a really great instructor who took the time to teach us and teach us right. A lot of people at this point began falling behind to point of no return. Many complained, some quit. To those who are in a bootcamp and a falling behind my advice is friend someone who is smarter than you in the bootcamp. If you can't friend someone know that you need to learn to make friends and communicate because if you don't have these technical skills you'll never get a job. Through this stack we learned how to make webpages, Flask, Django, MySql, and Sqlite. Big shoutout to my instructor Kevin. Kevin if you're reading this, thank you for setting me up for success.</p>
-                            <img src="https://preview.ibb.co/j64L3a/python_Cohort.jpg" class="responsive-img circle"/>
-                            <p><span class="sub-important">My python cohort!</span>
-                        </div>
-                        
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><h5><span class="sub-important">Java</span></h5></div>
-                        <div class="collapsible-body"><p>OH JAVA. How I hate you and love you so. If I can redo anything about my experience it would be not learning this stack. By all means I do not hate java, it was the fact that my cohort was the first cohort to be introduced to the Java track. The learning platform for Java was horrible, and us students did not get much support from the instructors becuase only one instructor knew Java and he only finished this stack literally a month beefore us. In my opinion this was very unprofessional. As for the learning itself, I was very fortunate that I had a good instructor for python, because of the fundamentals I learned in Python I was able to understand the Java track. At this point I became in my opinion one of the strong coders in my cohort. I finished assignments on time and I was able to help those who needed help. It felt good to help other people! As for what we learned we basically did the same assignments in Python but this time in Java. Between Python and Java, Java can be very challenging. What can be done easily in Flask can take extremely long in Spring MVC. Even though I had a rough experience in Java, I still highly recommend people to learn Java or C#. I strongly believe that if you can code in one of those languages, you can code in any language.</p></div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><h5><span class="sub-important">MEAN</span></h5></div>
-                        <div class="collapsible-body"><p>Currently doing MEAN!</p></div>
-                    </li>
-                </ul>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card hoverable large">
+                    <div class="card-image center-align">
+                        <img src="img/basicWallMean.PNG" class="responsive-img">
+                    </div>
+                    <span class="card-title center-align"><span class="important">Basic Wall</span></span>
+                    <div class="card-content">
+                        <p>Web application made with MEAN, JQuery, and MaterializeCSS.</p>
+                        <br>
+                        <a href="https://github.com/myrunce/basicWallMean">Check out the code!</a>
+                    </div>
+                    <div class="card-action center-align">
+                        <a href="http://13.57.29.33">Check it out!</a>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/skills.jpg"></div>
-        </div>
-
-        <div class="container" id="skills_section">
-            <div class="center">
-                <h3><span class="sub-important">Skills</span></h3>
-                <div class="divider"></div>
-                    <div class="section">
-                        <h5><span class="important">HTML, CSS, JQuery</span></h5>
-                        <a class="btn-floating waves-light" href="http://www.github.com/myrunce/webFundamentals" target="_blank">
-                            <i class="fa fa-github grey" aria-hidden="true"></i>
-                        </a>
-                        <a href="http://www.github.com/myrunce/webFundamentals" target="_blank"><span class="important"><span class="black-text"> All HTML, CSS, Jquery crud apps</span></span></a>
-                     </div>
-                    <div class="section">
-                        <h5><span class="important">Python: Flask, Django, MySql, Sqlite</span></h5>
-                        <a class="btn-floating waves-light" href="http://www.github.com/myrunce/python" target="_blank">
-                            <i class="fa fa-github grey" aria-hidden="true"></i>
-                        </a>
-                        <a href="http://www.github.com/myrunce/python" target="_blank"><span class="important"><span class="black-text"> All Python related crud apps</span></span></a>
+            <div class="col s12 m6">
+                <div class="card hoverable large">
+                    <div class="card-image center-align">
+                        <img src="https://preview.ibb.co/j4S7ia/UFI.png" class="responsive-img">
                     </div>
-                   <div class="section">
-                        <h5><span class="important">Java: SpringMVC</span></h5>
-                        <a class="btn-floating waves-light" href="http://www.github.com/myrunce/java" target="_blank">
-                            <i class="fa fa-github grey" aria-hidden="true"></i>
-                        </a>
-                        <a href="http://www.github.com/myrunce/java" target="_blank"><span class="important"><span class="black-text"> All Java related crud apps</span></span></a>
+                    <span class="card-title center-align"><span class="important">Up For It</span></span>
+                    <div class="card-content">
+                        <p>Web appliation made with Java, Spring MVC, HTML, CSS, and Materialize. </p>
+                        <br>
+                        <a href="https://github.com/myrunce/UpForItSpring">Check out the code!</a>
                     </div>
-                    <div class="section">
-                        <h5><span class="important">Javascript: MongoDB, ExpressJS, AngularJS, NodeJs(MEAN)</span></h5>
-                        <a class="btn-floating waves-light" href="http://www.github.com/myrunce/MEAN" target="_blank">
-                            <i class="fa fa-github grey" aria-hidden="true"></i>
-                        </a>
-                        <a href="http://www.github.com/myrunce/MEAN" target="_blank"><span class="important"><span class="black-text"> All MEAN related crud apps</span></span></a>
+                    <div class="card-action center-align">
+                        <a href="http://18.220.212.232">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card hoverable large">
+                    <div class="card-image center-align">
+                        <img src="https://preview.ibb.co/g2eW9F/UFIAPI.png" class="responsive-img">
+                    </div>
+                    <span class="card-title center-align"><span class="important">Up For It API</span></span>
+                    <div class="card-content">
+                        <p>Web application made with Java, Spring MVC, HTML, CSS, and Bootstrap.</p>
+                        <br>
+                        <a href="https://github.com/myrunce/UpForItAPI">Check out the code!</a>
+                    </div>
+                    <div class="card-action">
+                        <a href="http://18.220.143.149/">Check it out!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card hoverable large">
+                    <div class="card-image center-align">
+                        <img src="https://i.imgur.com/FyFq6p2.png" class="responsive-img">
+                    </div>
+                    <span class="card-title center-align"><span class="important">Film Friends</span></span>
+                    <div class="card-content">
+                        <p>Web application made with Python, Django, Sqlite and Materialize. </p>
+                        <br>
+                        <a href="https://github.com/myrunce/filmfriends">Check out the code!</a>
+                    </div>
+                    <div class="card-action center-align">
+                        <a href="http://18.221.23.203/">Check it out!</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="parallax-container" id="intro-para">
-            <div class="parallax"><img src="img/skills.jpg"></div>
+    <div class="parallax-container" id="intro-para">
+        <div class="parallax"><img src="img/skills.jpg"></div>
+    </div>
+
+    <div class="container" id="skills_section">
+        <div class="center">
+            <h3><span class="sub-important">Skills</span></h3>
+            <div class="divider"></div>
+            <div class="section">
+                <h5><span class="important">HTML, CSS, JQuery</span></h5>
+            </div>
+            <div class="section">
+                <h5><span class="important">Python: Flask, Django, MySql, Sqlite</span></h5>
+            </div>
+            <div class="section">
+                <h5><span class="important">Java: SpringMVC</span></h5>
+            </div>
+            <div class="section">
+                <h5><span class="important">Javascript: MongoDB, ExpressJS, AngularJS, NodeJs(MEAN)</span></h5>
+            </div>
         </div>
+    </div>
+    </div>
 
-        <footer class="page-footer grey center">
-            <div>
-                <p>Created By Myron Navarrete using Materialize</p>
-                <div class="container">
-                    <div class="row">
+    <div class="parallax-container" id="intro-para">
+        <div class="parallax"><img src="img/skills.jpg"></div>
+    </div>
+
+    <footer class="page-footer grey center">
+        <div>
+            <p>Created By Myron Navarrete using Materialize</p>
+            <div class="container">
+                <div class="row">
                     <div class="col m3 s3 btn_links">
                         <a class="btn-floating waves-light" href="" target="blank">
                         <i class="fa fa-file-pdf-o black" aria-hidden="true"></i>
@@ -305,47 +272,47 @@
                 </div>
             </div>
             <br>
-        </footer>
+    </footer>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script>
-            $('.button-collapse').sideNav({
-                draggable: true,
-                closeOnClick: true
-            });
-            $('.parallax').parallax();
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $('.button-collapse').sideNav({
+            draggable: true,
+            closeOnClick: true
+        });
+        $('.parallax').parallax();
 
-            var NAVBAR_HEIGHT = 64;
+        var NAVBAR_HEIGHT = 64;
 
-            $('.about').click(function() {
-                $('html, body').animate({
-                    scrollTop: $('#about_section').offset().top - NAVBAR_HEIGHT
-                    }, 'slow');
-            });
+        $('.about').click(function () {
+            $('html, body').animate({
+                scrollTop: $('#about_section').offset().top - NAVBAR_HEIGHT
+            }, 'slow');
+        });
 
-             $('.portfolio').click(function() {
-                $('html, body').animate({
-                    scrollTop: $('#portfolio_section').offset().top - NAVBAR_HEIGHT
-                    }, 'slow');
-            });
+        $('.portfolio').click(function () {
+            $('html, body').animate({
+                scrollTop: $('#portfolio_section').offset().top - NAVBAR_HEIGHT
+            }, 'slow');
+        });
 
-            $('.bootcamp').click(function() {
-                $('html, body').animate({
-                    scrollTop: $('#bootcamp_section').offset().top - NAVBAR_HEIGHT
-                    }, 'slow');
-            });
+        $('.bootcamp').click(function () {
+            $('html, body').animate({
+                scrollTop: $('#bootcamp_section').offset().top - NAVBAR_HEIGHT
+            }, 'slow');
+        });
 
-            $('.skills').click(function() {
-                $('html, body').animate({
-                    scrollTop: $('#skills_section').offset().top - NAVBAR_HEIGHT
-                    }, 'slow');
-            });
+        $('.skills').click(function () {
+            $('html, body').animate({
+                scrollTop: $('#skills_section').offset().top - NAVBAR_HEIGHT
+            }, 'slow');
+        });
 
-            $("a#boot_about").click(function(e){
-                e.preventDefault();
-            })
+        $("a#boot_about").click(function (e) {
+            e.preventDefault();
+        })
+    </script>
+</body>
 
-        </script>
-    </body>
 </html>
